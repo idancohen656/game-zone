@@ -1,0 +1,37 @@
+# ========================
+# React frontend ignores
+# ========================
+frontend/node_modules/
+frontend/.env
+frontend/.DS_Store
+frontend/build/
+frontend/.cache/
+
+# ========================
+# Java Spring backend ignores
+# ========================
+backend/target/
+backend/.env
+backend/.DS_Store
+backend/.classpath
+backend/.project
+backend/.settings/
+backend/.idea/
+
+# ========================
+# System files
+# ========================
+Thumbs.db
+.DS_Store
+
+# ========================
+# Logs
+# ========================
+*.log
+
+# ========================
+# IDEs and Editors
+# ========================
+.vscode/
+.idea/
+*.iml
