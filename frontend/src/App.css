@@ -1,0 +1,152 @@
+/* This file contains the CSS styles for the React application */
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.card:hover {
+  transform: scale(1.04);
+  transition: transform 0.3s ease;
+}
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #3a3939;
+  color: #f0f0f0;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #00c4ff;
+}
+
+.test {
+  font-weight: bold;
+  margin-top: 20px;
+  font-size: 18px;
+  color: #ff9f43;
+}
+
+.test2 {
+  margin-top: 40px;
+  font-size: 20px;
+  color: #4cd137;
+  font-style: italic;
+}
+
+p {
+  line-height: 1.6;
+}
+
+.btn {
+  margin-top: 30px;
+  padding: 12px 24px;
+  font-size: 18px;
+  border: none;
+  border-radius: 12px;
+  background-color: #00c4ff;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #0099cc;
+}
+.navbar {
+  background-color: #1f1f1f !important;
+  padding: 12px 24px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.navbar-brand img {
+  border-radius: 12px;
+  transition: transform 0.3s ease;
+}
+
+.navbar-brand img:hover {
+  transform: scale(1.1);
+}
+
+.nav-link {
+  color: #ccc !important;
+  font-size: 18px;
+  margin: 0 8px;
+  position: relative;
+}
+
+.nav-link::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  background: #00c4ff;
+  left: 0;
+  bottom: -4px;
+  transition: 0.3s;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
+
+.nav-link:hover {
+  color: #00c4ff !important;
+}
+
+.navbar .text-white {
+  color: #f0f0f0 !important;
+  margin-right: 12px;
+  font-size: 16px;
+}
+
+.navbar .btn-outline-light {
+  background-color: #00c4ff;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 12px;
+  transition: background-color 0.3s ease;
+}
+
+.navbar .btn-outline-light:hover {
+  background-color: #0099cc;
+}
