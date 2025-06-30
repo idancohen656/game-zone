@@ -31,8 +31,12 @@ Game Zone includes the following main features:
 ---
 
 ## 📸 Screenshots
+![צילום מסך 2025-06-30 152122](https://github.com/user-attachments/assets/9d8375d3-0f28-4e76-95e1-3880e7bfb9cf)
+![צילום מסך 2025-06-30 152009](https://github.com/user-attachments/assets/1484bbdd-b1c3-4fc4-8ff0-a24f20b576c8)
+![צילום מסך 2025-06-30 152026](https://github.com/user-attachments/assets/82bb655a-d505-4af0-be02-e54d5dadc889)
+![צילום מסך 2025-06-30 152217](https://github.com/user-attachments/assets/cd053af7-63c2-450c-ab07-a5e39b76db28)
+![צילום מסך 2025-06-30 152252](https://github.com/user-attachments/assets/19d6101f-3217-4434-943d-08952538c487)
 
-*(Add screenshots of the UI and gameplay here if desired)*
 
 ---
 
